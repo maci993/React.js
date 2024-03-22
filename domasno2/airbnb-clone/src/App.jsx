@@ -12,7 +12,6 @@ function App() {
     description='335 kilometers away'
     date='Mar 28- Apr 2'
     price={2173}
-
     />
 
 <Card 
@@ -21,7 +20,6 @@ function App() {
     description='Built in 2020'
     date='Mar 22-27'
     price={220}
-
     />
 
 <Card 
@@ -30,7 +28,6 @@ function App() {
     description='352 kilometers away'
     date='Jun 15-21'
     price={498}
-
     />
 
 <Card 
@@ -47,7 +44,6 @@ function App() {
     description='365 kilometers away'
     date='May 23-28'
     price={80}
-
     />
 
 <Card 
@@ -56,7 +52,6 @@ function App() {
     description='363 kilometers away'
     date='Apr 15-20'
     price={253}
-
     />
 
 <Card 
@@ -65,7 +60,6 @@ function App() {
     description='355 kilometers away'
     date='May 1-6'
     price={340}
-
     />
 
 <Card 
@@ -74,7 +68,6 @@ function App() {
     description='362 kilometers away'
     date='Apr 1-6'
     price={583}
-
     />
 
 <Card 
@@ -83,15 +76,10 @@ function App() {
     description='356 kilometers away'
     date='Apr 16-21'
     price={263}
-
     />
-
-
-
-
     </div>
     </>
  )
-}
+};
 
 export default App
