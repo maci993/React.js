@@ -1,9 +1,9 @@
 import React from "react";
 
-const Item = ({ name, isPacked, itemImg }) => {
+const Item = ({ name, isPacked, img }) => {
   return (
     <div className="item">
-      <img src={itemImg} />
+      <img src={img} />
       <p>
         {name}
         <span> {isPacked ? "✅" : "❌"}</span>
