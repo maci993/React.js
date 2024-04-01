@@ -28,19 +28,6 @@ const Form = () => {
     else setFlag(true);
   };
 
-  const resetMyForm = (e) => {
-    e.preventDefault();
-    setFlag(false);
-    setData({
-      ...data,
-      name: "",
-      surname: "",
-      phoneNum: "",
-      email: "",
-      password: "",
-    });
-  };
-
   return (
     <div>
       {flag ? (
