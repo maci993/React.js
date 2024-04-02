@@ -32,7 +32,12 @@ const Form = () => {
     <div>
       {flag ? (
         <>
-          <Card />
+          <Card 
+            name={data.name}
+            surname={data.surname}
+            phoneNum={data.phoneNum}
+            email={data.email}
+            />
         </>
       ) : (
         <form>
