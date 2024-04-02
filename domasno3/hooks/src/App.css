@@ -41,6 +41,41 @@
   color: #888;
 }
 
+
+.card {
+  position: relative;
+  margin-bottom: 10px;
+  background-color: #beb8b8;
+  border-radius: 15px;
+  border-color: black;
+  box-shadow: #888 0px -2px 6px 0px;
+}
+
+#title {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-style: italic;
+  font-size: 40px;
+}
+
+#name {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: oblique;
+}
+
+#number {
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: oblique;
+}
+
+#email {
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: oblique;
+}
+
 .form {
   display: flex;
   flex-direction: column;
