@@ -1,13 +1,19 @@
 import React from "react";
 
-const Card = ({ title }) => {
-    return (
-        <div>
-           <h1>Welcome!</h1>
-            <p>Successfully created your account!</p>
-        </div>
-    )
+const Card = ({ name, surname, phoneNum, email }) => {
+  return (
+    <div className="card">
+      <h1 id="title">Your Card is Created!</h1>
+      <p id="name">
+        Full Name: {name} {surname}
+      </p>
+      <p id="number">Phone Number: {phoneNum}</p>
+      <p id="email">Email address: {email}</p>
+    </div>
+  );
 };
+
+
 
 export default Card;
 
