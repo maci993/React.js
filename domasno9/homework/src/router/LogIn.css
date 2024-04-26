@@ -1,0 +1,76 @@
+body {
+  justify-content: center;
+  background-color: rgb(226, 226, 225);
+}
+
+.login-container {
+  width: 500px;
+  background-color: rgba(3, 150, 204, 0.489);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 250px;
+  padding: 40px;
+}
+
+.form {
+  display: flex;
+}
+
+.label-form {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+.input-form {
+  margin-left: 3px;
+  background-color: rgb(222, 219, 216);
+  border-radius: 5px;
+  padding: 4px;
+  width: 200px;
+}
+
+.input-form1 {
+  margin-left: 8px;
+  background-color: rgb(222, 219, 216);
+  border-radius: 5px;
+  padding: 4px;
+  width: 200px;
+}
+
+p {
+  font-style: italic;
+  font-size: 14px;
+}
+
+button {
+  display: relative;
+  justify-content: space-between;
+}
+
+.button-login {
+  margin-top: 15px;
+  border-color: black;
+  width: 80px;
+  cursor: pointer;
+}
+
+.button-create-account {
+  margin-left: 150px;
+  border-color: black;
+  width: 160px;
+  cursor: pointer;
+}
+
+.button-create-account:hover {
+  border: none;
+  outline: none;
+  background-color: rgb(222, 219, 216);
+}
+
+.button-login:hover {
+  border: none;
+  outline: none;
+  background-color:  rgb(222, 219, 216);
+}

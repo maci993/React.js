@@ -1,0 +1,34 @@
+.signUp-container {
+  width: 500px;
+  height: 250px;
+  background-color: rgba(3, 150, 204, 0.489);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 250px;
+  padding: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin: 20px;
+  margin-left: 50px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.button-sign-up {
+  border-color: black;
+  background-color: rgb(216, 216, 215);
+}
+
+button:hover {
+  border: none;
+  outline: none;
+  background-color: rgb(222, 219, 216);
+}
